@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  data_pipeline:
+    build: .
+    container_name: data_pipeline_app
+    ports:
+      - "8501:8501"   # Streamlit dashboard
+    volumes:
+      - ./data:/app/data
