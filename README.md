@@ -63,7 +63,7 @@ GitHub: https://github.com/Viraj1474
 
 Email: virajkulye1474@gmail.com
 
-LinkedIn: linkedin.com/in/virajkulye
+LinkedIn: https://www.linkedin.com/in/virajkulye/
 
 📌 Notes
 
