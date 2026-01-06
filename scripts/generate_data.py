@@ -20,4 +20,4 @@ if __name__ == "__main__":
     df = generate_data(200)
     df.to_csv("data/raw/employees.csv", index=False)
 
-    print("✅ Generated employees.csv in data/raw/")
+    print("Employee dataset generated and saved to data/raw/employees.csv")

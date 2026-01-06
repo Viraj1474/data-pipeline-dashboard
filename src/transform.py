@@ -13,7 +13,7 @@ def transform(df: pd.DataFrame) -> pd.DataFrame:
     bins = [0, 25, 35, 50, 100]
     labels = ["Young","Mid","Senior","Veteran"]
     df['age_group'] = pd.cut(df['age'], bins=bins, labels=labels)
-    print(f"✅ Transformed data: {len(df)} rows")
+    print(f"Transformed {len(df)} rows of data.")
     return df
 
 if __name__ == "__main__":
